@@ -28,3 +28,44 @@ CanvasJS | CanvasJS is a responsive HTML5 Javascript library for charts to make 
 SocketIO | SocketIO is a JavaScript library for realtime communication in web applications | https://socket.io, https://medium.com/@coderacademy/you-can-build-an-fb-messenger-style-chat-app-with-reactjs-heres-how-intermediate-211b523838ad
 
 # Getting Started
+
+- Clone the project
+```
+git clone https://github.com/JoslaTechnology/Recruit_Frontend_Hack.git
+
+```
+- Create your working branch (Hint: replace your name | example dev-Akinlabi)
+```
+git checkout -b dev-{your name}
+
+```
+- In each sub-project (user & admin) install node modules
+```
+npm install
+
+```
+- For each sub-project run the application
+```
+npm start
+
+```
+
+- Do some coding
+
+- Add your changes
+```
+git add .
+
+```
+- Commit your changes
+```
+git commit -m 'Commit title'
+
+```
+- Push to git repo
+```
+git push origin dev-{your name}
+
+```
+
+- Merge your work
