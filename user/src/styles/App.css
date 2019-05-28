@@ -18,10 +18,185 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.lead {
-  color: #ff4040;
+.B-jumbotron{
+  background: #E0E6EE;
+  
+} 
+.footies{
+  background: #000;
+  margin:20px;
 }
+.B-jumbotron1{
+   background: #E0E6EE;
+   border: 1px solid #a1a0a0;
+box-sizing: border-box;
+ }
+ 
+ .containee {
+   background: #F8F9FA;
+   margin-right: 5%;
+
+ }
+ .housing{
+   display:grid;
+   grid-template-columns: auto auto;
+
+ }
+
+.wifi3{
+  position:relative;
+  width: 181px;
+  height: 194px;
+  top:-40%;
+  right:41px;
+}
+ .locator{
+  position: absolute;
+  left: 56.75%;
+  right: 37.5%;
+  top: 30.88%;
+  bottom: 10.66%;
+ }
+ .hov{
+   padding:20px;
+ 
+ font-size:30px;
+ }
+ .lead {margin-left: 5%;
+  text-align: left;
+   font-weight: 300;
+   font-size: 46px;
+line-height: 67px;
+ }
+
+ .leads{
+  margin-left: 5%;
+  text-align: left;
+   font-weight: 400;
+   font-size: 66px;
+ }
+ .button1{
+   position: absolute;
+   left:10%;
+ }
+ .linkkk{
+   position: absolute;
+   left:30%;
+  font-size: 26px;
+  text-align: left;
+  margin-left: 4%;
+  
+ }
+ .brandlogo{
+   margin-left: 5%;
+ }
+ .font{
+   font-weight: 700;
+ }
+ .row{
+  background: #B3B8BE;
+ }
+ .pricing{
+   display: flex;
+   flex-direction: row;
+ }
+ .pricing-right{
+  background: #652B5A;
+  text-align:left;
+ }
+ .pricing-right-text{
+  color:#fff;
+  font-size:1rem;
+  width:190px;
+ }
+ .pricing-right-button{
+   color:white;
+   outline-color: white;
+   border: 1px solid white;
+ }
+ 
+ .grid-container{
+   display: grid;
+   grid-template-columns: auto auto auto;
+
+   grid-gap:10px;
+   background: #B3B8BE;
+   border:none;
+ }
+ .txt{
+   text-align: left;
+   font-weight: 700;
+   color:white;
+   
+   
+  
+ }
+ .txt1{
+   text-align:right;
+   font-weight: 700;
+   color:white;
+   padding:0px;
+ }
+ a.nav-link.disabled{
+   color:white;
+ }
+ .dek{
+  background: #000;
+  padding-top:15px;
+ }
+ .amount{
+   font-weight: 900;
+   font-size:1.5rem;
+ }
+ .icons{
+   display:inline;
+   padding:20px;
+ }
+ .hove{
+  padding-top:-70px;
+ }
+
+  #service, #price {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+  inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+ }
+ #home1{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),  inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-right:-15px;
+ }
+#home{
+    
+  animation-name: fade;
+
+  -webkit-animation: fade 4s 1 linear;
+}
+#service{
+  padding-bottom:120px;
+ 
+}
+@keyframes fade{
+0% {
+  opacity: 0;
+}
+20% {
+  opacity: 0;
+}
+30% {
+  opacity: 0.4;
+}
+60% {
+  opacity: 0.6;
+}
+80% {
+  opacity: 0.8;
+}
+100% {
+  opacity: 1;
+}
+}
+
+
 
 @keyframes App-logo-spin {
 
