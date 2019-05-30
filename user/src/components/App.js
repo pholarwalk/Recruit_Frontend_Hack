@@ -23,6 +23,7 @@ import {
   Card,CardDeck, CardHeader, CardBody, CardText
 } from 'reactstrap';
 
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -211,6 +212,8 @@ export default class App extends React.Component {
  
     <a className="hov" href='/'><i className="fab fa-twitter"></i></a>
     <a className="hov" href='/'><i className="fab fa-instagram" ></i></a>
+
+
     </div>
     <p></p>
         </Nav>
