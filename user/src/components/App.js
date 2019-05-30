@@ -16,7 +16,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          This is the <span className='lead'>USER</span> frontend application...
+          This is the <span className='lead'> new USER</span> frontend application...
         </h1>
         <p>
           Happy Coding!
